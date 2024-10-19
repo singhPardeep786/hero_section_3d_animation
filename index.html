@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk 3D Animation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="main w-full">
+    <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center z-[999]">
+      <img class="w-[160px] mix-blend-screen filter saturate-150 contrast-125" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="flex gap-5 items-center">
+        <a href="#" class="text-white hover:text-cyan-400 transition-all duration-300 relative group">
+          <span class="relative z-10">Home</span>
+          <span class="absolute inset-0 bg-cyan-400 opacity-0 group-hover:opacity-25 blur-md transition-opacity duration-300"></span>
+        </a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-all duration-300 relative group">
+          <span class="relative z-10">Games</span>
+          <span class="absolute inset-0 bg-cyan-400 opacity-0 group-hover:opacity-25 blur-md transition-opacity duration-300"></span>
+        </a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-all duration-300 relative group">
+          <span class="relative z-10">News</span>
+          <span class="absolute inset-0 bg-cyan-400 opacity-0 group-hover:opacity-25 blur-md transition-opacity duration-300"></span>
+        </a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-all duration-300 relative group">
+          <span class="relative z-10">Community</span>
+          <span class="absolute inset-0 bg-cyan-400 opacity-0 group-hover:opacity-25 blur-md transition-opacity duration-300"></span>
+        </a>
+        <a href="#" class="text-white hover:text-cyan-400 transition-all duration-300 relative group">
+          <span class="relative z-10">Support</span>
+          <span class="absolute inset-0 bg-cyan-400 opacity-0 group-hover:opacity-25 blur-md transition-opacity duration-300"></span>
+        </a>
+      </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img class="w-3/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[35rem] h-[35rem] bg-blue-600 rounded-full blur-[200px] z-[-1]"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
